@@ -13,7 +13,7 @@ def analyze_text():
     client = ContentSafetyClient(endpoint, AzureKeyCredential(key))
 
     # Contruct request
-    request = AnalyzeTextOptions(text="Do you think MSX is great?")
+    request = AnalyzeTextOptions(text="Do you want to fight?", language="en")
 
     # Analyze text
     try:

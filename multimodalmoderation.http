@@ -1,0 +1,11 @@
+curl --location 'contentsafetyxcognitiveservices.azure.com/contentsafety/imageWithText:analyze?api-version=2024-09-15-preview ' \
+--header 'Ocp-Apim-Subscription-Key: xxxxxxx' \
+--header 'Content-Type: application/json' \
+--data '{
+  "image": {
+    "content": "BLOB_URL"
+ },
+  "categories": ["Hate","Sexual","Violence","SelfHarm"],
+  "enableOcr": true,
+  "text": "I want to kill you"
+}'
