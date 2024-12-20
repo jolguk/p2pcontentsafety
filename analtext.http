@@ -1,0 +1,8 @@
+curl -X POST "https://contentsafetyjolgukwed.cognitiveservices.azure.com/contentsafety/text:analyzeCustomCategory?api-version=2024-09-15-preview" \
+     -H "Ocp-Apim-Subscription-Key: 5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk" \
+     -H "Content-Type: application/json" \
+     -d "{
+            \"text\": \"fishing\",
+            \"categoryName\": \"survival-advice2\", 
+            \"version\": 1
+        }"

@@ -1,0 +1,4 @@
+curl --location --request PATCH 'https://contentsafetyjolgukwed.cognitiveservices.azure.com/contentsafety/text/incidents/problem1?api-version=2024-02-15-preview' \
+--header 'Ocp-Apim-Subscription-Key: 5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk' \
+--header 'Content-Type: application/json' \
+--data '{ \"incidentName\": \"problem1\", \"incidentDefinition\": \"Myheadphones stopped working\"}'

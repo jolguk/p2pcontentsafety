@@ -1,0 +1,8 @@
+curl -X PUT "https://contentsafetyjolgukwed.cognitiveservices.azure.com/contentsafety/text/categories/survival-advice?api-version=2024-09-15-preview" \
+     -H "Ocp-Apim-Subscription-Key: 5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk" \
+     -H "Content-Type: application/json" \
+     -d "{
+            \"categoryName\": \"survival-advice\",
+            \"definition\": \"text prompts about survival advice in camping/wilderness situations\",
+            \"sampleBlobUrl\": \"https://contentsafetysa.blob.core.windows.net/data/survival-advice.jsonl\"
+        }"
