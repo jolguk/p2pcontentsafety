@@ -1,3 +1,3 @@
-curl -X GET "https://contentsafetyjolgukwed.cognitiveservices.azure.com//contentsafety/text/categories/operations/bdb9294c-3d45-408d-a382-38bf58c808c2?api-version=2024-09-15-preview" \
-     -H "Ocp-Apim-Subscription-Key: 5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk" \
+curl -X GET "https://contentsafetydddddd.cognitiveservices.azure.com//contentsafety/text/categories/operations/bdb9294c-3d45-408d-a382-38bf58c808c2?api-version=2024-09-15-preview" \
+     -H "Ocp-Apim-Subscription-Key: ********************" \
      -H "Content-Type: application/json"

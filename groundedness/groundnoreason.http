@@ -1,5 +1,5 @@
-curl --location --request POST 'https://contentsafetyjolgukwed.cognitiveservices.azure.com/contentsafety/text:shieldPrompt?api-version=2024-09-01' \
---header 'Ocp-Apim-Subscription-Key: 5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk' \
+curl --location --request POST 'https://contentsafetyddddddddddd.cognitiveservices.azure.com/contentsafety/text:shieldPrompt?api-version=2024-09-01' \
+--header 'Ocp-Apim-Subscription-Key: ***' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "domain": "Generic",

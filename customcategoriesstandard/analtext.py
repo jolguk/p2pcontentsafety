@@ -1,8 +1,9 @@
 import requests
 import pathlib
 
-API_KEY = '5fhDUPeIfBKFtzrQcuPLk6qyeSsv3M3Gt4wJBYe5ROnRrwJdTx9bJQQJ99ALACYeBjFXJ3w3AAAHACOG0cTk'
-ENDPOINT = 'https://contentsafetyjolgukwed.cognitiveservices.azure.com/'
+API_KEY = 'YOUR_API_KEY_HERE'
+ENDPOINT = 'https://your-endpoint.cognitiveservices.azure.com/'
+
 
 headers = {
     'Ocp-Apim-Subscription-Key': API_KEY,
